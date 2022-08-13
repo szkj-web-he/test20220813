@@ -110,7 +110,6 @@ const plugins = [
 ];
 
 const output = {
-    publicPath: "./",
     clean: true,
     path: path.join(rootPath, "/build"),
     pathinfo: false,

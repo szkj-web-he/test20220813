@@ -73,6 +73,7 @@ const config = {
     output: {
         ...output,
         ...{
+            publicPath: "./", 
             chunkFilename: "js/[name].[contenthash].js",
             filename: "js/[name].[contenthash].js",
         },

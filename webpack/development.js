@@ -79,6 +79,7 @@ const config = {
     output: {
         ...output,
         ...{
+            publicPath: "/", 
             chunkFilename: "js/[name].js",
             filename: "js/[name].js",
         },
